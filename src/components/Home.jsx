@@ -108,7 +108,7 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        <img src={"https://media.licdn.com/dms/image/C4D03AQEbOoi7CSp-mQ/profile-displayphoto-shrink_400_400/0/1656678735779?e=1692835200&v=beta&t=jAKgkGP6fFrF8nSO5zwQzqXNjkzyEL4PALPnxxl3gJ4"} alt="Deepanshu" />
+        <img src={"https://media.licdn.com/dms/image/D5603AQFgWZFUUA1Uug/profile-displayphoto-shrink_400_400/0/1687632715172?e=1694044800&v=beta&t=9fFAb9SqXIsI8ClvPE-FSFojpp8llcw_2t-sa0WCgns"} alt="Deepanshu" />
       </section>
       <BsChevronDown />
     </div>

@@ -95,8 +95,8 @@
   
         &::after {  // image ke niche circle
           content: "";
-          width: 50vmax;
-          height: 50vmax;
+          width: 45vmax;
+          height: 45vmax;
           background-color: $color3;
           position: absolute;  // box ke respect me hi
           z-index: -1;
