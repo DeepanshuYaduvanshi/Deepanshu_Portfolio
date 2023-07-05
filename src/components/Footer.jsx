@@ -33,7 +33,7 @@ const Footer = () => {
           <a href="https://github.com/DeepanshuYaduvanshi" target={"blank"}>
             <AiFillGithub />
           </a>
-          <a href="https://www.linkedin.com/in/deepanshu-879883280/" target={"blank"}>
+          <a href="https://linkedin.com/in/deepanshu-yaduvanshi-30aa29229" target={"blank"}>
             <AiFillLinkedin />
           </a>
         </article>
