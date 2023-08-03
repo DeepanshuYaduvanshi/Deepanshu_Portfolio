@@ -37,7 +37,7 @@ const NavContent = ({ setMenuOpen }) => (
         Experience
       </a>
       <a onClick={() => setMenuOpen(false)} href="#services">
-        Services
+        Skills
       </a>
       <a onClick={() => setMenuOpen(false)} href="#testimonial">
         Testimonial

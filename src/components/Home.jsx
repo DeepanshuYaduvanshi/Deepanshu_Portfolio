@@ -9,7 +9,7 @@ const Home = ({ ratio }) => {
   const projectCount = useRef(null);  
 
   const animationClientsCount = () => {  // niche funtion de rkha h ye
-    animate(0, 1200, {
+    animate(0, 1300, {
       duration: 1, // 1sec
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()), // textcontent counting chlayega from 0 to v and fixed int value me count krega na ki decimal me
     });
@@ -81,7 +81,7 @@ const Home = ({ ratio }) => {
                 ></motion.span>
               )}
             </p>
-            <span>DSA Prob Solved</span>
+            <span>DSA Problem Solved</span>
           </article>
 
           <aside>

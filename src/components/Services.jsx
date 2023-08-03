@@ -26,7 +26,7 @@ const Services = () => {
 
   return (
     <div id="services">
-      <h2>Services</h2>
+      <h2>Skills</h2>
       <section>
         <motion.div
           className="serviceBox1"
@@ -55,14 +55,14 @@ const Services = () => {
           <AiFillWindows />
           <span>CS Fundamentals</span>
         </motion.div>
-        <motion.div
+        <motion.div1
           className="serviceBox4"
           whileInView={animations.whileInView}
           initial={animations.four}
         >
           <AiOutlineBulb />
           <span>Data Structures & Algorithms</span>
-        </motion.div>
+        </motion.div1>
       </section>
     </div>
   );
