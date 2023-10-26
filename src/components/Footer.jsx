@@ -1,4 +1,5 @@
 import React from "react";
+import imgg from "../assets/profile_Pic.jpg"
 import {
   AiFillGithub,
   // AiFillInstagram,
@@ -12,7 +13,7 @@ const Footer = () => {
     <footer>
       <div>
         <img
-          src={"https://media.licdn.com/dms/image/D5603AQFgWZFUUA1Uug/profile-displayphoto-shrink_400_400/0/1687632715172?e=1694044800&v=beta&t=9fFAb9SqXIsI8ClvPE-FSFojpp8llcw_2t-sa0WCgns"}
+          src={imgg}
           alt="Founder"
         />
 

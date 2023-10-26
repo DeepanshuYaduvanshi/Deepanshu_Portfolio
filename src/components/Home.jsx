@@ -2,14 +2,14 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-// import me from "../assets/logo.png";
+import me from "../assets/profile_Pic.jpg";
 
 const Home = ({ ratio }) => {
   const clientCount = useRef(null);  // hook 
   const projectCount = useRef(null);  
 
   const animationClientsCount = () => {  // niche funtion de rkha h ye
-    animate(0, 1300, {
+    animate(0, 1500, {
       duration: 1, // 1sec
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()), // textcontent counting chlayega from 0 to v and fixed int value me count krega na ki decimal me
     });
@@ -108,7 +108,7 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        <img src={"https://media.licdn.com/dms/image/D5603AQFgWZFUUA1Uug/profile-displayphoto-shrink_400_400/0/1687632715172?e=1694044800&v=beta&t=9fFAb9SqXIsI8ClvPE-FSFojpp8llcw_2t-sa0WCgns"} alt="Deepanshu" />
+        <img src={me} alt="Deepanshu" />
       </section>
       <BsChevronDown />
     </div>
